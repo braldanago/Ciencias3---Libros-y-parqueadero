@@ -50,8 +50,8 @@ while not salir:
         if a==1:
             tempUsuario = []
             placa=  (raw_input("\nIngrese una placa:"))
-            codigo=(str) (raw_input("Ingrese código:"))
-            hora=(str) (raw_input("Ingrese una hora (ejp: 1800):"))
+            codigo=(raw_input("Ingrese código:"))
+            hora=(raw_input("Ingrese una hora (ejp: 1800):"))
             
             parqueadero.asignar([placa,codigo,hora])
             print("El usuario a sido asignado")
